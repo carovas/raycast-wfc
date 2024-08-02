@@ -22,6 +22,10 @@ public:
         return {delta_x, delta_y};
     }
 
+		float getangle() {
+			return angle;
+		}
+
     void update(float dt) {
 
         if(IsKeyDown(KEY_W))
